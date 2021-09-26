@@ -26,7 +26,6 @@ fun main() {
             filter { call -> call.request.path().startsWith("/") }
         }
 
-
         configureRouting()
     }.start(wait = true)
 }
