@@ -53,28 +53,16 @@ fun Application.configureRouting() {
                     Page("A combination of all I can give without being physically there."),
                     Page("The latter is in the form of the video I've sent you. I'm not a musician, but loved the idea to sing just for you. Makes me feel being closer to you."),
                     Page("The other part is, apart from all this text and the updated app, what's next.."),
-                    Page("After all these weeks, the bad and good things that happened, you're on my mind pretty often. It's remarkable and interesting to see that after this long time you still push me and fill me up with strength. You're better than any coffee or good song."),
+                    Page("After all these weeks, the bad and good things that happened, you're on my mind pretty often. It's remarkable and interesting to see that after this long time you still push me and fill me up with strength. You truly are more refreshing than any coffee or good song."),
                     Page("Mille grazie!"),
                     Page("Upcoming is a dream I already shared partially, but it continued since then. It connects to this wacky dream that was previously featured in this App."),
-                    Page("After I went travelling with Laura  and Federica, I decided to reveal who I was and that I infact knew you and them, though all from pictures. You've seen some Selfie with me on it and also told them who I was a few minutes ago."),
+                    Page("After I went travelling with Laura  and Federica, I decided to reveal who I was and that I infact knew you and them, though all from pictures. You've seen some Selfie with me on it and also told them who I was a few minutes ago.", "https://www.lindau.de/content/uploads/2019/02/Luftaufnahme_Insel-Nordost_Hari-Pulko-1.jpg"),
                     Page("They still quite confused, but also amazed about it. We continue with our trip through Lindau though. On our way to the harbor Federica comes up with an idea: \"Why not meet up all together?\" and Laura already starts planning a place or so."),
                     Page("I'm honestly a bit worried. Despite knowing you for some time now, despite trusting you from the bottom of my heart.. there's just that part that makes me feel unsure about the idea of meeting."),
                     Page("I would absolutely love to see you one day. No matter where. And still I feel insecure about it. I'm not bond or so by any means, but I'd like to make for a perfect impression when meeting. I fear it not turning out perfect."),
                     Page("On the other hand the will and interest on how the most meaningful italian woman might be like make the decision. I mumble \"Why not?\", then add \"How about the most meaningful place in Bavaria?\". \"Munich?\" Laura and Ferderica ask unisono."),
-                    Page("\"No. The castle of castles. The dream of dreams.\" - just to make you feel like a little princess for this special day - \"Neuschwanstein!\" I respond with a little smirk."),
-                    Page(
-                        "Fastforward a few days..." +
-                                "" +
-                                "After all these weeks, the bad and good things that happened, you're on my mind pretty often. It's remarkable and interesting to see that after this long time you still push me and fill me up with strength. You're better than any coffee or good song. Mille grazie!"
-                    ),
-                    Page("Upcoming is a dream I already shared partially, but it continued since then. It connects to this wacky dream that was previously featured in this App."),
-                    Page("After I went travelling with Laura  and Federica, I decided to reveal who I was and that I infact knew you and them, though all from pictures. You've seen some Selfie with me on it and also told them who I was a few minutes ago."),
-                    Page("They still quite confused, but also amazed about it. We continue with our trip through Lindau though. On our way to the harbor Federica comes up with an idea: \"Why not meet up all together?\" and Laura already starts planning a place or so."),
-                    Page("I'm honestly a bit worried. Despite knowing you for some time now, despite trusting you from the bottom of my heart.. there's just that part that makes me feel unsure about the idea of meeting."),
-                    Page("I would absolutely love to see you one day. No matter where. And still I feel insecure about it. I'm not bond or so by any means, but I'd like to make for a perfect impression when meeting. I fear it not turning out perfect."),
-                    Page("On the other hand the will and interest on how the most meaningful italian woman might be like make the decision. I mumble \"Why not?\", then add \"How about the most meaningful place in Bavaria?\". \"Munich?\" Laura and Ferderica ask unisono."),
-                    Page("\"No. The castle of castles. The dream of dreams.\" - just to make you feel like a little princess for this special day - \"Neuschwanstein!\" I respond with a little smirk."),
-                    Page("Fastforward a few days.."),
+                    Page("\"No. The castle of castles. The dream of dreams.\" - just to make you feel like a little princess, part of your very own fairy tale, for this special day - \"Neuschwanstein!\" I respond with a little smirk.", "http://images6.fanpop.com/image/photos/43400000/Neuschwanstein-Castle-germany-43448523-1920-1200.jpg"),
+                     Page("Fastforward a few days..", "https://www.zugreiseblog.de/wp-content/uploads/2017/05/lindau-zug.jpg"),
                     Page("I can see you through the windows of the wagons. With a small backpack, a handbag and a big trolley. As you come by the door and seem to struggle stepping down the rather thin staircase, I reach out to help you with the luggage."),
                     Page("\"Hey. Kennen wir uns?\" I ask, followed by a cringy laughter. I can't believe how happy I might be at this moment - you also seem to be a little bit unsure in the first place, and maybe tired after the journey that's behind you."),
                     Page("Carrying most of your stuff we walk all the way through the train station. \"How was your trip?\" I ask and slowly but steadily we get a little conversation going..."),
@@ -82,18 +70,17 @@ fun Application.configureRouting() {
                     Page("You make a few mistakes here and there, switch over to English or Italian if you don't know any further. After all your German got a bit more solid compared to what I knew it like. Good job!"),
                     Page("Telling you this makes you quite happy aswell. \"Thanks for the compliment.\", but I actually didn't intend it to be a compliment. Your mood went from slightly tired to a much greater level."),
                     Page(
-                        "We pack the luggage into the car, then I guide you around the island of Lindau. It's \"the paradise in the Bodensee\", we both can agree on that.\n" +
-                                "Time to also try some ice cream at the best Eisdiele in town: Gelateria Cristallo. I go for Malaga and Banana, just because I haven't had them for a long time. You just keep on talking Italian with Cristallo's wife, he just shrugs his shoulders and we both get it for free today."
-                    ),
-                    Page("Walking back to the parking lot now. It's pretty hot so we both gotta be fast with our tongues before the deliciousness melts away. And yes.. our ice cream holds up pretty well to your taste this time around. You also tell me how nice you find the flair our town has, to which I respond \"only in summer\" as it's pretty enpty in winter."),
-                    Page("As we pass along certain spots or walk through tiny roads I tell some stuff about this or that thing and ultimately we end up right at the car. Time to drive home. Drivin across the bridge there's the amazing view with the Alpes on the side and the lake to the bottom."),
-                    Page("We arrive back home where I introduce you to my sisters and mum. Carina is quite into your style."),
-                    Page("We go upstairs and I show you my room in which you can stay. I tidied it up a lot. Also a seperate toilet and shower. I place down the luggage and after this hefty long trip you really want to shower before anything else. It's gotten a bit sweaty, so I'll leave you alone."),
-                    Page("In the meantime me and my mum prepare Leberkäs and some other small specialties and my sisters prepare the table. Weather is good, so why not eat on the patio?"),
+                        "We pack the luggage into the car, then I guide you around the island of Lindau. It's \"the paradise in the Bodensee\", we both can agree on that.\n" ,"https://www.fineart-panorama.de/331465/im-hafen-von-lindau-am-bodensee.jpg"),
                     Page(
-                        "Right as the Leberkäs comes out of the oven you come downstairs and I hand you a small letter..." +
-                                "I won't deny it, but whenever I think about you, being quite delighted I get so excited, just can't hide it."
+                        "Time to also try some ice cream at the best Eisdiele in town: Gelateria Cristallo. I go for Malaga and Banana, just because I haven't had them for a long time. You just keep on talking Italian with Cristallo's wife, he just shrugs his shoulders and we both get it for free today.","https://10619-2.s.cdn12.com/rests/original/109_509305914.jpg"
                     ),
+                    Page("Walking back to the parking lot now...\n\nIt's pretty hot so we both gotta be fast with our tongues before the deliciousness melts away. And yes.. our ice cream holds up pretty well to your taste this time around. You also tell me how nice you find the flair our town has, to which I respond \"only in summer\" as it's pretty empty in winter.", "https://cdn.11880.com/cristallo-eiscafe_25457342_mw640h480_lindau-bodensee.jpg"),
+                    Page("As we pass along certain spots or walk through tiny roads I tell some stuff about this or that thing and ultimately we end up right at the car. Time to drive home.\n\nDriving across the bridge there's the amazing view with the Alpes on the side and the lake to the bottom.","https://www.alpintreff.de/Bilder/poi/678/inselbruecke-lindau.jpg"),
+                    Page("We arrive back home where I introduce you to my sisters and mum. Carina is quite into your style."),
+                    Page("We go upstairs and I show you my room in which you can stay. I tidied it up a lot. Also a separate toilet and shower. I place down the luggage and after this hefty long trip you really want to shower before anything else. It's gotten a bit sweaty, so I'll leave you alone."),
+                    Page("In the meantime me and my mum prepare Leberkäs and some other small specialties and my sisters prepare the table. Weather is good, so why not eat on the patio?", "https://t.me/c/1367773728/12"),
+                    Page("Right as the Leberkäs comes out of the oven you come downstairs and I hand you a small letter..."),
+                    Page("I waited and won't deny it, but whenever I think about you, being quite delighted I get so excited, just can't hide it."),
                     Page("One of the worthiest people I ever met and because you are so special and so kind, when I go to bed or take a look at the chat you are always on my mind."),
                     Page(
                         "You may not be aware on the impact you can have on people, but it's just awesome to know a person just like you, Irene.\n" +
