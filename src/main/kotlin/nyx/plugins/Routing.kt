@@ -64,22 +64,25 @@ fun Application.configureRouting() {
                     Page("They still quite confused, but also amazed about it. We continue with our trip through Lindau though. On our way to the harbor Federica comes up with an idea: \"Why not meet up all together?\" and Laura already starts planning a place or so."),
                     Page("I'm honestly a bit worried. Despite knowing you for some time now, despite trusting you from the bottom of my heart.. there's just that part that makes me feel unsure about the idea of meeting."),
                     Page("I would absolutely love to see you one day. No matter where. And still I feel insecure about it. I'm not bond or so by any means, but I'd like to make for a perfect impression when meeting. I fear it not turning out perfect."),
-                    Page("On the other hand the will and interest on how the most meaningful italian woman might be like make the decision. I mumble \"Why not?\", then add \"How about the most meaningful place in Bavaria?\". \"Munich?\" Laura and Ferderica ask unisono."),
+                    Page("On the other hand the will and interest on how the most meaningful italian woman might be like make the decision. I mumble \"Why not?\", then add \"How about the most meaningful place in Bavaria?\". \"Munich?\", Laura and Ferderica ask unisono."),
                     Page(
-                        "\"The castle of castles. The dream of dreams.\" - just to make you feel like a little princess, part of your very own fairy tale, for this special day - \"Neuschwanstein!\" I respond with a little smirk.",
+                        "\"The castle of castles. The dream of dreams.\" - just to make you feel like a little princess, part of your very own fairy tale, for this special day - \"Neuschwanstein!\", I respond with a little smirk.",
                         "https://i.pinimg.com/originals/c9/a3/82/c9a382534b7dee4da5df645880f6fafd.png"
                     ),
+                    Page("Fast forward a few days.."),
                     Page(
-                        "Fastforward a few days..",
+                        "I can see you through the windows of the wagons.",
                         "https://www.zugreiseblog.de/wp-content/uploads/2017/05/lindau-zug.jpg"
                     ),
-                    Page("I can see you through the windows of the wagons. With a small backpack, a handbag and a big trolley. As you come by the door and seem to struggle stepping down the rather thin staircase, I reach out to help you with the luggage."),
-                    Page("\"Hey. Kennen wir uns?\" I ask, followed by a cringy laughter. I can't believe how happy I might be at this moment - you also seem to be a little bit unsure in the first place, and maybe tired after the journey that's behind you."),
+                    Page(" With a small backpack, a handbag and a big trolley. As you come by the door and seem to struggle stepping down the rather thin staircase, I reach out to help you with the luggage."),
+                    Page("\"Hey. Kennen wir uns?\", I ask, followed by a cringy laughter."),
+                    Page("I can't believe how happy I might be at this moment.\n\nYou also seem to be a little bit unsure in the first place, and maybe tired after the journey that's behind you."),
                     Page("Carrying most of your stuff we walk all the way through the train station. \"How was your trip?\" I ask and slowly but steadily we get a little conversation going ✨"),
-                    Page("Wow!\n\nHow happy it just makes me to hear your voice..."),
+                    Page("Wow."),
+                    Page("How happy it just makes me to hear your voice..."),
                     Page(
                         "You make a few mistakes here and there, switch over to English or Italian if you don't know any further.\n\nAfter all your German got a bit more solid compared to what I knew it like.\n\nGood job!",
-                        "https://cdn.discordapp.com/attachments/849654128099328009/893974790673686558/unknown.png"
+                        "https://cdn.discordapp.com/attachments/849654128099328009/893976577157779476/unknown.png"
                     ),
                     Page("Telling you this makes you quite happy aswell. \"Thanks for the compliment.\", but I actually didn't intend it to be a compliment. Your mood went from slightly tired to a much greater level."),
                     Page(
@@ -104,8 +107,8 @@ fun Application.configureRouting() {
                     Page("We arrive back home where I introduce you to my sisters and mum. Carina likes your style."),
                     Page("We go upstairs and I show you my room in which you can stay. I tidied it up a lot. Also a separate toilet and shower. I place down the luggage and after this hefty long trip you really want to shower before anything else. It's gotten a bit sweaty, so I'll leave you alone."),
                     Page(
-                        "In the meantime me and my mum prepare Leberkäs and some other small specialties and my sisters prepare the table. Weather is good, so why not eat on the patio?",
-                        "https://cdn.discordapp.com/attachments/849654128099328009/893973131939692564/unknown.png"
+                        "In the meantime me and my mum prepare Leberkäs, Maultaschen and some other small specialties and my sisters prepare the table. Weather is good, so why not eat on the patio?",
+                        "https://cdn.discordapp.com/attachments/849654128099328009/893977532410515486/unknown.png"
                     ),
                     Page(
                         "Right as the Leberkäs comes out of the oven you come downstairs and I hand you a small letter...",
@@ -117,7 +120,7 @@ fun Application.configureRouting() {
                         "You may not be aware on the impact you can have on people, but it's just awesome to know a person just like you, Irene.\nPenso che il tuo personaggio sia molto bene.\n"
                     ),
                     Page(
-                        "Without it, the sky would be much less blue,\nhence a wonderful Happy Birthday for you!",
+                        "Without it, the sky would be less blue...\n\nAnd now a wonderful Happy Birthday for you \uD83C\uDF89",
                         "https://images.assetsdelivery.com/compings_v2/prapann/prapann1512/prapann151200028.jpg"
                     ),
                     Page("Auguri, mi venturi \uD83D\uDE0A")
