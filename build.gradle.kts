@@ -5,7 +5,7 @@ val logback_version: String by project
 plugins {
     application
     kotlin("jvm") version "1.5.30"
-                id("org.jetbrains.kotlin.plugin.serialization") version "1.5.30"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.5.31"
 }
 
 group = "nyx"

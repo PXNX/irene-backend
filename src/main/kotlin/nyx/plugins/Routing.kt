@@ -40,13 +40,13 @@ fun Application.configureRouting() {
 
                 //birthday
                 listOf(
-                    Page("You know how high up on my list of people who I value you are."),
+                    Page("You know how valuable you are to me."),
                     Page("Today is your special day and I wanted to present you with something very special, because if not you who else would deserve something alike."),
                     Page("You're one day older than yesterday, one year older than last year. You might be with family, friends and probably partied a bit - or will go for that later on. You might have gotten a few gifts already and the following might serve as a nice addition to today's collection.\n"),
                     Page("You won't get anything physical today. That'll be reserved for whenever we may meet. It just feels right to give you something in person, rather than sending it as it fulfills the entire process with value."),
                     Page("I also think that gifts are more about the thought behind. Giving people what you think they deserve, sweetening up their day and making you feel what you just are: incredible."),
-                    Page("You are the empress of this day. \uD83D\uDC78\uD83C\uDFFB"),
-                    Page("You deserve something unique."),
+                    Page("You are the empress of this day \uD83D\uDC78\uD83C\uDFFB"),
+                    Page("You deserve something unique ✨"),
                     Page(
                         "For that I wanted to give you two  major parts as a present: One that flows straight out of my mind and soul, one the flows straight out of my limbs and mouth.",
                         "https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20032.png"
@@ -67,7 +67,7 @@ fun Application.configureRouting() {
                     Page("On the other hand the will and interest on how the most meaningful italian woman might be like make the decision. I mumble \"Why not?\", then add \"How about the most meaningful place in Bavaria?\". \"Munich?\" Laura and Ferderica ask unisono."),
                     Page(
                         "\"The castle of castles. The dream of dreams.\" - just to make you feel like a little princess, part of your very own fairy tale, for this special day - \"Neuschwanstein!\" I respond with a little smirk.",
-                        "http://images6.fanpop.com/image/photos/43400000/Neuschwanstein-Castle-germany-43448523-1920-1200.jpg"
+                        "https://i.pinimg.com/originals/c9/a3/82/c9a382534b7dee4da5df645880f6fafd.png"
                     ),
                     Page(
                         "Fastforward a few days..",
@@ -75,9 +75,12 @@ fun Application.configureRouting() {
                     ),
                     Page("I can see you through the windows of the wagons. With a small backpack, a handbag and a big trolley. As you come by the door and seem to struggle stepping down the rather thin staircase, I reach out to help you with the luggage."),
                     Page("\"Hey. Kennen wir uns?\" I ask, followed by a cringy laughter. I can't believe how happy I might be at this moment - you also seem to be a little bit unsure in the first place, and maybe tired after the journey that's behind you."),
-                    Page("Carrying most of your stuff we walk all the way through the train station. \"How was your trip?\" I ask and slowly but steadily we get a little conversation going..."),
-                    Page("oh boy does it make me happy to hear you talking.."),
-                    Page("You make a few mistakes here and there, switch over to English or Italian if you don't know any further. After all your German got a bit more solid compared to what I knew it like. Good job!"),
+                    Page("Carrying most of your stuff we walk all the way through the train station. \"How was your trip?\" I ask and slowly but steadily we get a little conversation going ✨"),
+                    Page("Wow!\n\nHow happy it just makes me to hear your voice..."),
+                    Page(
+                        "You make a few mistakes here and there, switch over to English or Italian if you don't know any further.\n\nAfter all your German got a bit more solid compared to what I knew it like.\n\nGood job!",
+                        "https://cdn.discordapp.com/attachments/849654128099328009/893974790673686558/unknown.png"
+                    ),
                     Page("Telling you this makes you quite happy aswell. \"Thanks for the compliment.\", but I actually didn't intend it to be a compliment. Your mood went from slightly tired to a much greater level."),
                     Page(
                         "We pack the luggage into the car, then I guide you around the island of Lindau. It's \"the paradise in the Bodensee\", we both can agree on that.\n",
@@ -88,7 +91,10 @@ fun Application.configureRouting() {
                         "https://10619-2.s.cdn12.com/rests/original/109_509305914.jpg"
                     ),
                     Page(
-                        "Walking back to the parking lot now...\n\nIt's pretty hot so we both gotta be fast with our tongues before the deliciousness melts away. And yes.. our ice cream holds up pretty well to your taste this time around. You also tell me how nice you find the flair our town has, to which I respond \"only in summer\" as it's pretty empty in winter.",
+                        "Walking back to the parking lot now...\n\nIt's pretty hot so we both gotta be fast with our tongues before the deliciousness melts away.\n\nAnd yes.. our ice cream holds up pretty well to your taste this time around."
+                    ),
+                    Page(
+                        "You also tell me how nice you find the flair our town has, to which I respond \"only in summer\" as it's pretty empty in winter.",
                         "https://cdn.11880.com/cristallo-eiscafe_25457342_mw640h480_lindau-bodensee.jpg"
                     ),
                     Page(
@@ -101,7 +107,10 @@ fun Application.configureRouting() {
                         "In the meantime me and my mum prepare Leberkäs and some other small specialties and my sisters prepare the table. Weather is good, so why not eat on the patio?",
                         "https://cdn.discordapp.com/attachments/849654128099328009/893973131939692564/unknown.png"
                     ),
-                    Page("Right as the Leberkäs comes out of the oven you come downstairs and I hand you a small letter...", "https://cdn.khohinhstock.com/i/NORMAL-iStockPhoto%201024px-673063194.jpg"),
+                    Page(
+                        "Right as the Leberkäs comes out of the oven you come downstairs and I hand you a small letter...",
+                        "https://cdn.khohinhstock.com/i/NORMAL-iStockPhoto%201024px-673063194.jpg"
+                    ),
                     Page("I waited and won't deny it, but whenever I think about you, being quite delighted I get so excited, that I just can't hide it."),
                     Page("One of the worthiest people I ever met and because you are so special and so kind, when I go to bed or take a look at the chat you are always on my mind."),
                     Page(

@@ -2,13 +2,12 @@ package nyx
 
 import io.ktor.application.*
 import io.ktor.features.*
-import io.ktor.http.*
 import io.ktor.request.*
 import io.ktor.serialization.*
-import io.ktor.server.engine.*
 import io.ktor.server.cio.*
+import io.ktor.server.engine.*
 import kotlinx.serialization.json.Json
-import nyx.plugins.*
+import nyx.plugins.configureRouting
 import org.slf4j.event.Level
 
 fun main() {
