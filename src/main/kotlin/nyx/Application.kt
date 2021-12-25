@@ -6,18 +6,13 @@ import io.ktor.server.cio.*
 import io.ktor.server.engine.*
 import io.ktor.server.plugins.*
 import io.ktor.server.request.*
-import kotlinx.serialization.json.Json
 import nyx.plugins.configureRouting
 import org.slf4j.event.Level
 
 fun main() {
     embeddedServer(CIO, port = System.getenv("PORT").toInt()) {
         install(ContentNegotiation) {
-            json(Json {
-                prettyPrint = true
-                isLenient = true
-                ignoreUnknownKeys = true
-            })
+            json()
         }
 
         install(CallLogging) {
