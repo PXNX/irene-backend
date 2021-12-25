@@ -137,18 +137,20 @@ fun Application.configureRouting() {
                     Page("maybe one day..."),
                     Page("I instead want to gift you a small snowy story❄️"),
                     Page("Hope you enjoy :)"),
-                    Page("They say that the day the snow princess of the land of Winter was born was one of the most magical times in recorded history."),
+
+                    Page("They say that the day the snow princess of the land of Winter was born was one of the most magical times in recorded history." , "https://image.winudf.com/v2/image1/Y29tLmFwcDNkd2FsbHBhcGVyaGQud2ludGVyd2FsbHBhcGVyaGRfc2NyZWVuXzJfMTU2NzAyOTkwNF8wMDI/screen-2.jpg?fakeurl=1&type=.jpg"),
                     Page("She was born on the winter solstice, December 21st, at 0:01, as the first snowflake of Winter began to fall from the sky."),
                     Page("Her father Lord Winter, who had ice white hair, and glacier green eyes, used his powers of Winter to capture the snowflake for his darling half mortal, half immortal daughter and made it into a necklace that graced her neck."),
                     Page("Many people of the land of Winter, which where mainly the frost giants, who had ice blue skin, snow white eyes, and clear blue hair , and ice dragons, with their array of blue colored scales; all agreed that the Lord of Winter's ever ever after, had finally came at last."),
                     Page("Which meant that the land of Winter could finally have peace and prosperity, something that they can only have once the rightful ruler finds their soul mate."),
                     Page("The reason was because only the soul mate of the rightful ruler could pass into the land of Winter, and put a curb on the harshest of winters."),
                     Page("But not everyone in the land of Winter was pleased with the birth of the baby snow princess, in fact one person in particular was not pleased at all."),
-                    Page("This person was the Lord Winter's sister, a cold hearted woman, whom was now throughout the land for her cruelty."),
-                    Page("Her title of Ice Princess fit her well, because nobody could melt her heart of Ice."),
+                    Page("This person was the Lord Winter's sister, a cold hearted woman, whom was now throughout the land for her cruelty.\n" +
+                            "Her title of Ice Princess fit her well, because nobody could melt her heart of Ice."),
                     Page("As time passed the snow princess began to grow into a beautiful young girl, with glacier blue hair, snowflake pale skin, and clear ice blue eyes, that could control the powers of Winter."),
-                    Page("So one night when the powers where at their weakest the ice princess struck."),
-                    Page("She attacked on the eve of the Summer solstice, and slain her brother Lord Winter and his wife, a mortal woman, who had managed to capture his heart, but she could not end the life of her little six year old niece."),
+                    Page("So one night when the powers where at their weakest the ice princess struck.\n" +
+                            "She attacked on the eve of the Summer solstice, and slain her brother Lord Winter and his wife, a mortal woman, who had managed to capture his heart, but she could not end the life of her little six year old niece."),
+
                     Page("Because the snow princess was born half mortal and half immortal, the only thing the ice princess could do was banish her to the land of Seasons, the realm outside of their own."),
                     Page("The world in which we exist."),
                     Page("After her niece was banished the ice princess took on a new name for herself, one that reflected her knew found status as ruler of the land of Winter, and filled with irony of how it started."),
@@ -166,7 +168,7 @@ fun Application.configureRouting() {
                     Page("Others should always be treated with respect and a certain value, no matter how they behave."),
                     Page("But there's people who are worth much more and hence deserve only the best. I may be overly careful with it, but somehow want to remain a sweet addition to your life rather than taking control over you."),
                     Page("I like you the way you are, I don't want to influence you too much. I just want to be there for you whenever you need me."),
-                    Page("And I get very excited whenever you're here and there for me😄"),
+                    Page("And I get very excited whenever you're here and there for me✨"),
                     Page("Ultimately I respect and value you more than almost any other person I got to know over the last years."),
                     Page("You're a rare mentally assimilated and supportive being that let's me strive💎"),
                     Page("Hopefully it doesn't sound creepy, but just having a picture, voice or some words on my mind makes me feel great."),
@@ -202,9 +204,9 @@ fun Application.configureRouting() {
                                 "zeigt sie sich bei Gelegenheit\n" +
                                 "dem, der mit Fantasie gesegnet."
                     ),
-                    Page("I hope you enjoyed those small texts☺️"),
-                    Page("Christmas is the fest of kindness, sharing and caring - I just want to give something meaningful back."),
-                    Page("I hope I could sweeten up your day as much as you sweeten up mine :)"),
+
+                    Page("Christmas is the fest of kindness, sharing and caring - I just want to give something meaningful back.", "https://files.wallpaperpass.com/2020/03/christmas_new_year_hd_wallpaper_189-3072x2048-1.jpg"),
+                    Page("I hope you enjoyed those small texts and that I could sweeten up your day as much as you sweeten up mine :)"),
                     Page("Frohe Weihnachten, Buon Natale and Merry Christmas, Irene✨🎄")
                 )
             )
