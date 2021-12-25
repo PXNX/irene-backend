@@ -27,14 +27,9 @@ repositories {
 
 dependencies {
     implementation("io.ktor:ktor-server-core:$ktorVersion")
+    implementation("io.ktor:ktor-serialization:$ktorVersion")
     implementation("io.ktor:ktor-server-cio:$ktorVersion")
-
-    implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
-
-    implementation("io.ktor:ktor-server-call-logging:$ktorVersion")
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
-
     testImplementation("io.ktor:ktor-server-tests:$ktorVersion")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
 }
