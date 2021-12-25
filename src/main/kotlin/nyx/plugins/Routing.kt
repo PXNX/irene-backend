@@ -1,8 +1,8 @@
 package nyx.plugins
 
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.routing.*
+import io.ktor.server.application.*
+import io.ktor.server.response.*
+import io.ktor.server.routing.*
 import nyx.model.Page
 
 fun Application.configureRouting() {
@@ -39,7 +39,7 @@ fun Application.configureRouting() {
                                  */
 
                 //birthday
-                listOf(
+                /*listOf(
                     Page("You know how valuable you are to me."),
                     Page("Today is your special day and I wanted to present you with something very special, because if not you who else would deserve something alike."),
                     Page("You're one day older than yesterday, one year older than last year. You might be with family, friends and probably partied a bit - or will go for that later on. You might have gotten a few gifts already and the following might serve as a nice addition to today's collection.\n"),
@@ -124,9 +124,90 @@ fun Application.configureRouting() {
                         "https://images.assetsdelivery.com/compings_v2/prapann/prapann1512/prapann151200028.jpg"
                     ),
                     Page("Auguri, mi venturi \uD83D\uDE0A")
+                ) */
+
+                //Christmas
+                listOf(
+                    Page("It's Heiligabend right now. We had Fondue as dinner, sat together and played a one of the games you recommended me."),
+                    Page("We had some Plätzle and gifted each other a few cute things I think. We'll unpack the presents when Bescherung starts after coming back from church."),
+                    Page("We don't deeply believe in God, but it' s some tradition here. Earlier we also praised the christmas tree with a few shots and some songs ."),
+                    Page("I don't know how Christmas is celebrated in your family. Hope you all have an excellent time no matter what✨🎄"),
+                    Page("Merry Christmas to You, your family and your friends.Hope you spend a nice time together, get loads of gifts and good stuff to eat😋"),
+                    Page("Being unable to hand you a little present in person..."),
+                    Page("maybe one day..."),
+                    Page("I instead want to gift you a small snowy story❄️"),
+                    Page("Hope you enjoy :)"),
+                    Page("They say that the day the snow princess of the land of Winter was born was one of the most magical times in recorded history."),
+                    Page("She was born on the winter solstice, December 21st, at 0:01, as the first snowflake of Winter began to fall from the sky."),
+                    Page("Her father Lord Winter, who had ice white hair, and glacier green eyes, used his powers of Winter to capture the snowflake for his darling half mortal, half immortal daughter and made it into a necklace that graced her neck."),
+                    Page("Many people of the land of Winter, which where mainly the frost giants, who had ice blue skin, snow white eyes, and clear blue hair , and ice dragons, with their array of blue colored scales; all agreed that the Lord of Winter's ever ever after, had finally came at last."),
+                    Page("Which meant that the land of Winter could finally have peace and prosperity, something that they can only have once the rightful ruler finds their soul mate."),
+                    Page("The reason was because only the soul mate of the rightful ruler could pass into the land of Winter, and put a curb on the harshest of winters."),
+                    Page("But not everyone in the land of Winter was pleased with the birth of the baby snow princess, in fact one person in particular was not pleased at all."),
+                    Page("This person was the Lord Winter's sister, a cold hearted woman, whom was now throughout the land for her cruelty."),
+                    Page("Her title of Ice Princess fit her well, because nobody could melt her heart of Ice."),
+                    Page("As time passed the snow princess began to grow into a beautiful young girl, with glacier blue hair, snowflake pale skin, and clear ice blue eyes, that could control the powers of Winter."),
+                    Page("So one night when the powers where at their weakest the ice princess struck."),
+                    Page("She attacked on the eve of the Summer solstice, and slain her brother Lord Winter and his wife, a mortal woman, who had managed to capture his heart, but she could not end the life of her little six year old niece."),
+                    Page("Because the snow princess was born half mortal and half immortal, the only thing the ice princess could do was banish her to the land of Seasons, the realm outside of their own."),
+                    Page("The world in which we exist."),
+                    Page("After her niece was banished the ice princess took on a new name for herself, one that reflected her knew found status as ruler of the land of Winter, and filled with irony of how it started."),
+                    Page("She became the Snow Queen."),
+                    Page("However, since she was not the rightful ruler of the land of Winter, she lived in fear of the snow princess returning to reclaim her birth right."),
+                    Page("The Snow Queen worried so much that she told all the people of the land of Winter that their beloved snow princess was dead, and that out of honor for the dead no one was aloud to speak the Snow princess's name."),
+                    Page("The Snow Princess's name held great power, and if spoken in the land of Winter it could bring her back❄️"),
+
+                    ////////////////// bild hier?
+
+                    Page("A few things were mentioned between the lines. Some of those keep my mind busy for the last days."),
+                    Page("When you're away, I don't want to spam this chat. Thus I favor wishing a good morning or night whenever you were there in the first place."),
+                    Page("Everything in the universe is to some extend unique, but only a few things are special."),
+                    Page("You deserve to be treated with calm caring charm, as in my opinion you truly are special - at least you make me feel good whatever positive happens."),
+                    Page("Others should always be treated with respect and a certain value, no matter how they behave."),
+                    Page("But there's people who are worth much more and hence deserve only the best. I may be overly careful with it, but somehow want to remain a sweet addition to your life rather than taking control over you."),
+                    Page("I like you the way you are, I don't want to influence you too much. I just want to be there for you whenever you need me."),
+                    Page("And I get very excited whenever you're here and there for me😄"),
+                    Page("Ultimately I respect and value you more than almost any other person I got to know over the last years."),
+                    Page("You're a rare mentally assimilated and supportive being that let's me strive💎"),
+                    Page("Hopefully it doesn't sound creepy, but just having a picture, voice or some words on my mind makes me feel great."),
+                    Page("I can't tell if you may be aware of the impact you can have, but one thing is for sure.."),
+                    Page("You rock!"),
+                    Page("And ultimately a little poem about the Snow queen..."),
+                    Page("maybe about you😜"),
+                    Page(
+                        "Der Winter hält sich schon bereit,\n" +
+                                "und mit dem Schnee kommt ihre Zeit,\n" +
+                                "dann geht sie wieder auf Tournee\n" +
+                                "in ihrem kalten Reich aus Schnee\n" +
+                                "und trägt ihr weißes Flockenkleid."
+                    ),
+                    Page(
+                        "Wenn dann noch aus dem Himmelszelt\n" +
+                                "ein Meer von Flocken erdwärts fällt,\n" +
+                                "trägt sie aus frischem Schnee und Eis\n" +
+                                "ein Krönchen, es ist strahlend weiß,\n" +
+                                "und schreitet durch die Winterwelt."
+                    ),
+                    Page(
+                        "Als Königin, des Winters Braut,\n" +
+                                "aus Schnee ist sie ihm angetraut.\n" +
+                                "Seit Ewigkeit sind sie ein Paar,\n" +
+                                "doch ist vorbei der Februar,\n" +
+                                "geschieht es, dass sie langsam taut."
+                    ),
+                    Page(
+                        "Nicht jeder ist ihr schon begegnet\n" +
+                                "und niemand sieht sie, wenn es regnet.\n" +
+                                "Nur wenn es kalt ist und dann schneit,\n" +
+                                "zeigt sie sich bei Gelegenheit\n" +
+                                "dem, der mit Fantasie gesegnet."
+                    ),
+                    Page("I hope you enjoyed those small texts☺️"),
+                    Page("Christmas is the fest of kindness, sharing and caring - I just want to give something meaningful back."),
+                    Page("I hope I could sweeten up your day as much as you sweeten up mine :)"),
+                    Page("Frohe Weihnachten, Buon Natale and Merry Christmas, Irene✨🎄")
                 )
             )
-
         }
     }
 }
